@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import  {Food} from './Food'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h5>gsggwelcome!!!</h5>
-      </header>
+    <div>
+      <center>
+        <Food/>
+      </center>
     </div>
-  );
+  )
 }
-
-export default App;
+export default  App
