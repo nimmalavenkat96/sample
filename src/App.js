@@ -5,6 +5,7 @@ const App = () => {
     <div>
       <center>
         <Food/>
+        <h2>sample text</h2>
       </center>
     </div>
   )
